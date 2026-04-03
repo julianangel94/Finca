@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #f9f6f0;
+  --foreground: #1a1a1a;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: "Lato", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display", serif;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
