@@ -5,7 +5,7 @@ import { ChevronDown, Star } from "lucide-react";
 
 export default function Hero() {
   return (
-    <section id="inicio" className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <section id="inicio" className="relative min-h-screen flex items-center justify-center overflow-hidden pb-20">
       <Image
         src="/images/hero2.jpeg"
         alt="Finca Guadalupana"
@@ -46,8 +46,8 @@ export default function Hero() {
         <div className="max-w-5xl mx-auto px-4 grid grid-cols-2 md:grid-cols-4 gap-4">
           {[
             { value: "15", label: "Personas" },
-            { value: "5", label: "Habitaciones" },
-            { value: "2h", label: "De Medellín" },
+            { value: "4", label: "Habitaciones" },
+            { value: "1h", label: "De Medellín" },
             { value: "4.9", label: "Calificación", icon: <Star size={16} className="inline text-yellow-400 fill-yellow-400" /> },
           ].map((stat) => (
             <div

@@ -1,7 +1,7 @@
 "use client";
 
 export default function WhatsAppButton() {
-  const phone = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || "573100000000";
+  const phone = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || "573005322048";
   const message = encodeURIComponent(
     "Hola! Me interesa reservar la Finca Guadalupana. ¿Podrían darme más información?"
   );

@@ -24,7 +24,7 @@ const planLabels: Record<string, string> = {
 };
 
 export default function ReservationForm() {
-  const whatsappNumber = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || "573100000000";
+  const whatsappNumber = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || "573005322048";
 
   const {
     register,

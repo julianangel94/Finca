@@ -27,7 +27,7 @@ const amenities = [
   },
   {
     icon: BedDouble,
-    title: "5 Habitaciones",
+    title: "4 Habitaciones",
     description: "Habitaciones cómodas con capacidad para 15 personas",
   },
   {

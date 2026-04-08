@@ -5,7 +5,7 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="text-center md:text-left">
             <h3 className="font-heading text-2xl font-bold mb-2">
-              Finca La Esmeralda
+              Finca Guadalupana
             </h3>
             <p className="text-white/70 max-w-md">
               Tu escape perfecto en la naturaleza. Disfruta de tranquilidad, aire
